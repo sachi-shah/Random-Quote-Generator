@@ -1,0 +1,56 @@
+html,body{
+  height : 100%;
+}
+
+body{
+  background: url('https://source.unsplash.com/OryqWo1IqiU/1600x900');
+ background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Lobster', cursive;
+  
+}
+
+h1{
+  margin-top: 10%;
+  color:maroon;
+  text-align: center;
+  font-family: times new roman;
+  font-weight: bolder;
+  text-shadow: 2% 2% 4% white;
+}
+
+
+button{
+  margin: 0 auto;
+  box-shadow: 0 0 10% rgba(0,0,0,0.6);
+  font-family: times new roman;
+  font-weight: bolder;
+}
+button:hover{
+
+  color: maroon;
+  border: 2% solid maroon;
+  background-color: #c5dff9;
+}
+.quotes{
+  background-color: #c5dff9;
+  width: 60%;
+  margin: 3% auto;
+  padding: 10%;
+  border: 3px solid maroon;
+  border-radius: 5%;
+  box-shadow: 0 0 20% rgba(0,0,0,0.9);
+  min-height:50%;
+  font-family: 'Lobster', cursive;
+  color: maroon;
+}
+.quote{
+    font-size:1.5em;
+}
+.author{
+  font-size: 1em;
+}
+#tweet{
+  margin-left :5%;
+}
